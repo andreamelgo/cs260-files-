@@ -1,0 +1,32 @@
+h1{
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+}
+h2{
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bg-dark {
+    background-color: #f0dc82 !important;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #c5b358;
+}
+.div {
+    height: 50px;
+    box-sizing: content-box; 
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+textarea {
+    width: 100px;
+}

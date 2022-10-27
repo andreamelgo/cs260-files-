@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function fizzbuzz(){
+                for (i=0; i < 100; i++){
+                if((i%3)){
+                    console.log("Fizz");
+                }
+                else if((i%3)&&((i%5) ==  0)){
+                    console.log("Buzz")
+                }
+                if((i&3) && (i%5)){
+                    console.log(i);
+                }
+                
+            }
+            
+            }
+            
+            function min(x,y){
+                if(x<y){
+                    return(x);
+                }
+                else {
+                    return(y);
+                }
+            }
+            function testmin(){
+                console.log(min(0,10));
+                console.log(min(0,-10));
+            }
+            function sumRange(){
+                
+            }
+            
+             
+        </script>
+    </head>
+    <body>
+        <p onclick="fizzbuzz()">Fizzbuzz</p>
+        <p onclick="testmin()">min</p>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+
+body {
+    font-size: x-large;
+    background-color: #ffe6f3 /*light pink*/
+}
+
+/*make font size bigger
+also change font*/
+h1{
+    font-size: 30px;
+    text-align:center;Centered paragraph;
+    font-family: garamond
+}
+
+/*make font smaller*/
+h2{
+    font-size: 20px;
+    text-align:center;Centered paragraph;
+    font-family: Inter, sans-serif;
+    color: violet;
+}
+p {
+    font-size: 14px;
+    text-align:center;Centered paragraph;
+    font-family: "Roboto","system-ui","San Francisco","Segoe UI","Oxygen","Ubuntu",Arial,sans-serif/*papyrus*/;
+    
+}
+
+
+/*change :) to flower emoji same background color*/
